@@ -1,1 +1,6 @@
 @import url(https://fonts.bunny.net/css);
+
+.image-container {
+    background-image: martin-wyall-a84im0HHzC0-unsplash.jpg;
+    opacity: 0.5;
+}
