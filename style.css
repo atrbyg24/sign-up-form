@@ -39,7 +39,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 240px;
+    top: 200px;
 }
 
 .Odin-logo {
@@ -47,7 +47,11 @@ body {
 }
 
 .sign-up-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex-grow: 1;
+    gap: 48px;
 }
 
 fieldset {
