@@ -15,7 +15,7 @@ body {
     max-width: 800px;
     background-image: url(florian-gretillat-zj_9WewVEw0-unsplash.jpg);
     background-size: 100vh;
-    background-color: olivedrab;
+    background-color: lightblue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,6 +25,14 @@ body {
 .photo-credit {
     position:absolute;
     bottom: 0;
+}
+
+.photo-credit > a:link {
+    color:white;
+}
+
+.photo-credit > a:visited {
+    color:gray;
 }
 
 .logo-banner {
