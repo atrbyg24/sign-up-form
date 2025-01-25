@@ -74,7 +74,8 @@ fieldset {
     0px 4px 4px rgba(0,0,0,0.15),
     0px 6px 6px rgba(0,0,0,0.15),
     0px 12px 12px rgba(0,0,0,0.15);
-    margin: 0;
+    margin-left: 0;
+    margin-bottom: 48px;
     font-size: 12px;
 }
 
@@ -94,10 +95,6 @@ fieldset > div > div {
     flex-direction: column;
 }
 
-.button-container {
-    padding: 0px 48px;
-}
-
 .create-account-button {
     background-color: #4787AA;
     color: white;
@@ -113,6 +110,10 @@ fieldset > div > div {
 
 .create-account-button:hover {
     background-color: #0D608C;
+}
+
+.button-container {
+    padding: 0px 48px;
 }
 
 .button-container > p > a:link {
