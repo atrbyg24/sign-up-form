@@ -1,8 +1,11 @@
 @import url(https://fonts.bunny.net/css?family=comfortaa);
 
 .image-container {
+    width: 640px;
     height: 100vh;
     background-image: url(florian-gretillat-zj_9WewVEw0-unsplash.jpg);
+    background-size: 100vh;
+    background-color: olivedrab;
 }
 
 
