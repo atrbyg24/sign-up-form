@@ -75,6 +75,23 @@ fieldset {
     0px 6px 6px rgba(0,0,0,0.15),
     0px 12px 12px rgba(0,0,0,0.15);
     margin: 0;
+    font-size: 12px;
+}
+
+fieldset > span {
+    font-size: 24px;
+    margin-left: 12px;
+}
+
+fieldset > div {
+    display: flex;
+    gap: 48px;
+    margin: 12px 12px;
+}
+
+fieldset > div > div {
+    display: flex;
+    flex-direction: column;
 }
 
 .button-container {
