@@ -24,7 +24,8 @@ body {
 
 .photo-credit {
     position:absolute;
-    bottom: 0;
+    bottom: 4px;
+    font-size: 12px;
 }
 
 .photo-credit > a:link {
@@ -47,7 +48,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 200px;
+    top: 160px;
 }
 
 .Odin-logo {
@@ -62,10 +63,45 @@ body {
     gap: 48px;
 }
 
+.advert {
+    padding: 0px 48px;
+    font-weight: 700;
+}
+
 fieldset {
-    box-shadow: 0px 1px 1px rgba(0,0,0,0.25),
-    0px 2px 2px rgba(0,0,0,0.25),
-    0px 4px 4px rgba(0,0,0,0.25),
-    0px 8px 8px rgba(0,0,0,0.25);
+    border: none;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.15),
+    0px 4px 4px rgba(0,0,0,0.15),
+    0px 6px 6px rgba(0,0,0,0.15),
+    0px 12px 12px rgba(0,0,0,0.15);
     margin: 0;
+}
+
+.button-container {
+    padding: 0px 48px;
+}
+
+.create-account-button {
+    background-color: #4787AA;
+    color: white;
+    width: 160px;
+    height: 36px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.15),
+    0px 4px 4px rgba(0,0,0,0.15),
+    0px 6px 6px rgba(0,0,0,0.15),
+    0px 12px 12px rgba(0,0,0,0.15);
+}
+
+.create-account-button:hover {
+    background-color: #0D608C;
+}
+
+.button-container > p > a:link {
+    color: #4787AA;
+}
+
+.button-container > p > a:visited {
+    color: #0D608C;
 }
